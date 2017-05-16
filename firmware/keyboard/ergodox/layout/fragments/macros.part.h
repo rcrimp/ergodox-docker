@@ -106,6 +106,11 @@ void keys__press__m_pasta2(void) {
 }
 void keys__release__m_pasta2(void) {}
 
+void keys__press__m_pasta3(void) {
+    key_functions__type_string   ( PSTR( "The original machine had a base plate of prefabulated amulite, surmounted by a malleable logarithmic casing in such a way that the two spurving bearings were in direct line with the pentametric fan. The latter consisted simply of six hydrocoptic marzelvanes, so fitted to the ambifacient lunar waneshaft that side fumbline was effectively prevented. The main winding was of the normal lotus-0-delta type placed in panendermic semiboiloid slots in the stator, every seventh conductor being connected by a nonreversible tremie pipe to the differential gridlespring on the \"up\" end of the grammeters." ));
+}
+void keys__release__m_pasta3(void) {}
+
 #define KB_Alt 0xE2
 #define KP_1 0x59  // √  √   √     84/101/104
 #define KP_2 0x5A  // √  √   √     84/101/104
