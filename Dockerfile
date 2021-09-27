@@ -8,5 +8,7 @@ VOLUME /compiled
 
 COPY firmware/ /firmware/
 COPY start.sh /
+RUN chmod +x start.sh
 
 CMD [ "./start.sh" ]
+
